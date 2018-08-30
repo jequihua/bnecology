@@ -4,14 +4,14 @@ This repository provides tools to perform automated estimation of Ecological Int
 
 The general workflow is as follows:
 
-* Initialize an empty adjecency matrix including the available variables
-* Specify the model (Set arcs between nodes/variables)
-* Fit the bayesian network based on the available evidence
+* Initialize an empty adjecency matrix including the available variables.
+* Specify the model (Set arcs between nodes/variables).
+* Fit the bayesian network based on the available evidence.
 * Using the fitted network, predict/estimate the level of EI for the region of interest.
 
 ### 1.- Initialize empty adjacenty matrix (initialize_adj_matrix.R)
 
-It's assumed that the user has a collection of independente variables located in the folder "./data/indep_vars" and at least one dependen variable. All these are assumed to be rasters with the same projection, resolution and extent.
+It's assumed that the user has a collection of independente variables located in the folder "./data/indep_vars" and at least one dependent variable. All these are assumed to be rasters with the same projection, resolution and extent.
 
 This script receives the folder filled with independen variable rasters and the filename of the dependent variable rasters and produces a csv file with an empty adjacency matrix.
 
