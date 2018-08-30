@@ -1,0 +1,14 @@
+
+*.pdf
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.tif
+*.html
+*.tsv
+*.csv
+*.png
+*.tex
+.DS_Store
+data/
