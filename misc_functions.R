@@ -39,8 +39,7 @@ initAdj = function(adj_mat, custom_names=NULL){
 # For a group of nodes set arcs based on a adjacency matrix
 setArcs = function(bngraph,
                    adj_mat){
-  
-  amat(bngraph) = as.matrix(adj_csv,row.names=TRUE,colnames())
+  amat(bngraph) = as.matrix(adj_csv,row.names=TRUE)
   return(bngraph)
 }
 
