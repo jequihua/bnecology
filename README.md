@@ -4,7 +4,7 @@ This repository provides tools to perform automated estimation of Ecological Int
 
 The general workflow is as follows:
 
-* Initialize an empty adjecency matrix including the available variables.
+* Initialize an empty adjacency matrix including the available variables.
 * Specify the model (Set arcs between nodes/variables).
 * Fit the bayesian network based on the available evidence.
 * Using the fitted network, predict/estimate the level of EI for the region of interest.
